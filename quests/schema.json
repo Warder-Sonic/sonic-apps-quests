@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Quest Schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique quest identifier"
+    },
+    "title": {
+      "type": "string",
+      "description": "Quest title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Quest description"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["sonic-apps", "defi", "gaming", "nft", "social", "education"],
+      "description": "Quest category"
+    },
+    "reward": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["points", "tokens", "nft", "badge"]
+        },
+        "amount": {
+          "type": "number"
+        },
+        "token": {
+          "type": "string"
+        }
+      },
+      "required": ["type"]
+    },
+    "requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["app-visit", "transaction", "connect-wallet", "social-follow", "hold-tokens"]
+          },
+          "details": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard"]
+    },
+    "estimatedTime": {
+      "type": "string",
+      "description": "Estimated completion time"
+    },
+    "externalUrl": {
+      "type": "string",
+      "description": "External link for quest completion"
+    },
+    "sonicApp": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        }
+      }
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "endDate": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": ["id", "title", "description", "category", "reward", "requirements", "difficulty"]
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Offer Schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique offer identifier"
+    },
+    "merchantId": {
+      "type": "string",
+      "description": "Merchant identifier in Warder system"
+    },
+    "title": {
+      "type": "string",
+      "description": "Offer title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Offer description"
+    },
+    "merchantName": {
+      "type": "string",
+      "description": "Merchant display name"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["food", "shopping", "gaming", "defi", "nft", "education", "entertainment"],
+      "description": "Offer category"
+    },
+    "cashbackRate": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Cashback percentage (0-100)"
+    },
+    "maxCashback": {
+      "type": "number",
+      "description": "Maximum cashback amount"
+    },
+    "minPurchase": {
+      "type": "number",
+      "description": "Minimum purchase amount"
+    },
+    "currency": {
+      "type": "string",
+      "enum": ["S", "USDC", "ETH"],
+      "default": "S"
+    },
+    "validUntil": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "terms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "merchantUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "imageUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true
+    },
+    "isFeatured": {
+      "type": "boolean",
+      "default": false
+    },
+    "sonicIntegration": {
+      "type": "object",
+      "properties": {
+        "appUrl": {
+          "type": "string"
+        },
+        "pointsMultiplier": {
+          "type": "number",
+          "default": 1
+        }
+      }
+    }
+  },
+  "required": ["id", "merchantId", "title", "merchantName", "category", "cashbackRate"]
+}

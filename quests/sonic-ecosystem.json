@@ -1,0 +1,169 @@
+[
+  {
+    "id": "shadow-exchange-trade",
+    "title": "Trade on Shadow Exchange",
+    "description": "Make a trade on Shadow Exchange, the breakout DEX on Sonic with $100M TVL",
+    "category": "defi",
+    "reward": {
+      "type": "points",
+      "amount": 500
+    },
+    "requirements": [
+      {
+        "type": "transaction",
+        "details": {
+          "platform": "Shadow Exchange",
+          "minAmount": 10,
+          "token": "S"
+        }
+      }
+    ],
+    "difficulty": "medium",
+    "estimatedTime": "5 minutes",
+    "externalUrl": "https://my.soniclabs.com/apps",
+    "sonicApp": {
+      "name": "Shadow Exchange",
+      "category": "defi"
+    },
+    "isActive": true
+  },
+  {
+    "id": "beets-staking",
+    "title": "Stake S on BEETS",
+    "description": "Stake S tokens on BEETS to receive stS and earn auto-compounding rewards",
+    "category": "defi",
+    "reward": {
+      "type": "points",
+      "amount": 750
+    },
+    "requirements": [
+      {
+        "type": "transaction",
+        "details": {
+          "platform": "BEETS",
+          "minAmount": 100,
+          "token": "S"
+        }
+      }
+    ],
+    "difficulty": "medium",
+    "estimatedTime": "10 minutes",
+    "externalUrl": "https://my.soniclabs.com/apps",
+    "sonicApp": {
+      "name": "BEETS",
+      "category": "staking"
+    },
+    "isActive": true
+  },
+  {
+    "id": "swapx-liquidity",
+    "title": "Provide Liquidity on SwapX",
+    "description": "Add liquidity to SwapX, the primary liquidity layer on Sonic",
+    "category": "defi", 
+    "reward": {
+      "type": "points",
+      "amount": 600
+    },
+    "requirements": [
+      {
+        "type": "transaction",
+        "details": {
+          "platform": "SwapX",
+          "minAmount": 50,
+          "token": "S"
+        }
+      }
+    ],
+    "difficulty": "hard",
+    "estimatedTime": "15 minutes",
+    "externalUrl": "https://my.soniclabs.com/apps",
+    "sonicApp": {
+      "name": "SwapX",
+      "category": "defi"
+    },
+    "isActive": true
+  },
+  {
+    "id": "sonic-bridge-usage",
+    "title": "Bridge Assets via Sonic Gateway",
+    "description": "Use Sonic Gateway to bridge assets between Ethereum and Sonic",
+    "category": "defi",
+    "reward": {
+      "type": "points",
+      "amount": 400
+    },
+    "requirements": [
+      {
+        "type": "transaction",
+        "details": {
+          "platform": "Sonic Gateway",
+          "minAmount": 25
+        }
+      }
+    ],
+    "difficulty": "medium",
+    "estimatedTime": "8 minutes",
+    "externalUrl": "http://gateway.soniclabs.com",
+    "sonicApp": {
+      "name": "Sonic Gateway",
+      "category": "bridge"
+    },
+    "isActive": true
+  },
+  {
+    "id": "spookyswap-v3-trade",
+    "title": "Trade on SpookySwap V3",
+    "description": "Use SpookySwap V3 with concentrated liquidity for efficient trading",
+    "category": "defi",
+    "reward": {
+      "type": "points",
+      "amount": 300
+    },
+    "requirements": [
+      {
+        "type": "transaction",
+        "details": {
+          "platform": "SpookySwap V3",
+          "minAmount": 20,
+          "token": "S"
+        }
+      }
+    ],
+    "difficulty": "medium",
+    "estimatedTime": "5 minutes",
+    "externalUrl": "https://my.soniclabs.com/apps",
+    "sonicApp": {
+      "name": "SpookySwap",
+      "category": "defi"
+    },
+    "isActive": true
+  },
+  {
+    "id": "mysonic-stake-native",
+    "title": "Stake S on MySonic",
+    "description": "Stake S tokens directly on MySonic platform with network validators",
+    "category": "sonic-apps",
+    "reward": {
+      "type": "points",
+      "amount": 800
+    },
+    "requirements": [
+      {
+        "type": "transaction",
+        "details": {
+          "platform": "MySonic Staking",
+          "minAmount": 100,
+          "token": "S"
+        }
+      }
+    ],
+    "difficulty": "easy",
+    "estimatedTime": "5 minutes",
+    "externalUrl": "https://my.soniclabs.com/stake",
+    "sonicApp": {
+      "name": "MySonic",
+      "category": "staking"
+    },
+    "isActive": true
+  }
+]

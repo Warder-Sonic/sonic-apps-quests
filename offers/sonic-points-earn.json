@@ -1,0 +1,252 @@
+[
+  {
+    "id": "sonic-s-deposit",
+    "merchantId": "sonic-deposit-001",
+    "title": "S Token Deposit - 12x Multiplier",
+    "description": "Deposit S or wS tokens on Sonic for maximum 12x point rewards",
+    "merchantName": "Sonic Network",
+    "category": "defi",
+    "cashbackRate": 25,
+    "maxCashback": 1000,
+    "minPurchase": 10,
+    "currency": "S",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "12x multiplier for S/wS tokens",
+      "Bridge and swap actions eligible",
+      "Extra partner rewards available"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/points/earn",
+    "isActive": true,
+    "isFeatured": true,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/points/earn",
+      "pointsMultiplier": 12.0
+    }
+  },
+  {
+    "id": "sonic-sts-rewards",
+    "merchantId": "sonic-sts-001", 
+    "title": "stS Liquid Staking - 12x Multiplier",
+    "description": "Mint stS, OS, or wOS for 12x boosted rewards on Sonic",
+    "merchantName": "Sonic Liquid Staking",
+    "category": "defi",
+    "cashbackRate": 22,
+    "maxCashback": 800,
+    "minPurchase": 50,
+    "currency": "S",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "12x multiplier for stS/OS/wOS",
+      "Mint and swap actions",
+      "Liquid staking derivatives"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/points/earn",
+    "isActive": true,
+    "isFeatured": true,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/points/earn",
+      "pointsMultiplier": 12.0
+    }
+  },
+  {
+    "id": "sonic-ans-rewards",
+    "merchantId": "sonic-ans-001",
+    "title": "anS & beS Tokens - 12x Multiplier", 
+    "description": "Mint anS, wanS, or beS tokens for maximum boosted rewards",
+    "merchantName": "Sonic Advanced Tokens",
+    "category": "defi",
+    "cashbackRate": 20,
+    "maxCashback": 600,
+    "minPurchase": 25,
+    "currency": "S",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "12x multiplier for anS/wanS/beS",
+      "Mint anS and beS actions",
+      "Advanced token derivatives"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/points/earn",
+    "isActive": true,
+    "isFeatured": true,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/points/earn", 
+      "pointsMultiplier": 12.0
+    }
+  },
+  {
+    "id": "sonic-scusd-collateral",
+    "merchantId": "sonic-scusd-001",
+    "title": "scUSD Collateral - 8x Multiplier",
+    "description": "Use USDC as collateral to mint scUSD with 8x point rewards",
+    "merchantName": "Sonic Collateralized USD",
+    "category": "defi",
+    "cashbackRate": 15,
+    "maxCashback": 400,
+    "minPurchase": 100,
+    "currency": "USDC",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "8x multiplier for USDC collateral",
+      "Mint scUSD and swap",
+      "Extra RINGS, VEDA, GEMS rewards"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/points/earn",
+    "isActive": true,
+    "isFeatured": false,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/points/earn",
+      "pointsMultiplier": 8.0
+    }
+  },
+  {
+    "id": "sonic-ausdc-rewards",
+    "merchantId": "sonic-ausdc-001",
+    "title": "aUSDC & bUSDC.e-20 - 10x Multiplier",
+    "description": "Get aUSDC or bUSDC.e-20 tokens for 10x boosted rewards",
+    "merchantName": "Sonic USDC Variants",
+    "category": "defi",
+    "cashbackRate": 18,
+    "maxCashback": 500,
+    "minPurchase": 50,
+    "currency": "USDC",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "10x multiplier for aUSDC/bUSDC.e-20",
+      "Get token actions available",
+      "Enhanced USDC derivatives"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/points/earn",
+    "isActive": true,
+    "isFeatured": false,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/points/earn",
+      "pointsMultiplier": 10.0
+    }
+  },
+  {
+    "id": "sonic-shadow-token",
+    "merchantId": "sonic-shadow-001",
+    "title": "SHADOW Token Trading - 10x Multiplier",
+    "description": "Swap SHADOW tokens for 10x boosted point rewards",
+    "merchantName": "Shadow Exchange Token",
+    "category": "defi", 
+    "cashbackRate": 20,
+    "maxCashback": 300,
+    "minPurchase": 20,
+    "currency": "S",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "10x multiplier for SHADOW token",
+      "Swap actions on DEX",
+      "Breakout Sonic DeFi token"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/points/earn",
+    "isActive": true,
+    "isFeatured": true,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/points/earn",
+      "pointsMultiplier": 10.0
+    }
+  },
+  {
+    "id": "sonic-beets-token",
+    "merchantId": "sonic-beets-001",
+    "title": "BEETS Token Rewards - 10x Multiplier",
+    "description": "Swap BEETS tokens for enhanced point rewards",
+    "merchantName": "BEETS Protocol Token",
+    "category": "defi",
+    "cashbackRate": 18,
+    "maxCashback": 250,
+    "minPurchase": 15,
+    "currency": "S", 
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "10x multiplier for BEETS token",
+      "Core infrastructure token",
+      "Staking and liquidity rewards"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/points/earn",
+    "isActive": true,
+    "isFeatured": true,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/points/earn",
+      "pointsMultiplier": 10.0
+    }
+  },
+  {
+    "id": "sonic-equal-swap",
+    "merchantId": "sonic-equal-001",
+    "title": "EQUAL Token Trading via Fly.Trade",
+    "description": "Swap USDC to EQUAL on Fly.Trade for boosted rewards",
+    "merchantName": "EQUAL Protocol",
+    "category": "defi",
+    "cashbackRate": 15,
+    "maxCashback": 200,
+    "minPurchase": 25,
+    "currency": "USDC",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "10x multiplier for EQUAL token",
+      "Swap via Fly.Trade platform",
+      "Cross-DEX aggregation"
+    ],
+    "merchantUrl": "https://app.fly.trade/swap/sonic/USDC/sonic/EQUAL",
+    "isActive": true,
+    "isFeatured": false,
+    "sonicIntegration": {
+      "appUrl": "https://app.fly.trade/swap/sonic/USDC/sonic/EQUAL",
+      "pointsMultiplier": 10.0
+    }
+  },
+  {
+    "id": "sonic-metas-deposit",
+    "merchantId": "sonic-metas-001", 
+    "title": "metaS & wmetaS Deposit - 12x Multiplier",
+    "description": "Deposit for metaS or wmetaS tokens with maximum multiplier",
+    "merchantName": "Sonic Meta Tokens",
+    "category": "defi",
+    "cashbackRate": 25,
+    "maxCashback": 750,
+    "minPurchase": 50,
+    "currency": "S",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "12x multiplier for metaS/wmetaS",
+      "Meta-token ecosystem",
+      "Enhanced S token variants"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/points/earn",
+    "isActive": true,
+    "isFeatured": true,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/points/earn",
+      "pointsMultiplier": 12.0
+    }
+  },
+  {
+    "id": "sonic-xsilo-rewards",
+    "merchantId": "sonic-xsilo-001",
+    "title": "xSILO Token - 10x Multiplier", 
+    "description": "Swap xSILO tokens for enhanced Sonic ecosystem rewards",
+    "merchantName": "Silo Finance xSILO",
+    "category": "defi",
+    "cashbackRate": 20,
+    "maxCashback": 400,
+    "minPurchase": 30,
+    "currency": "S",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "10x multiplier for xSILO",
+      "Isolated lending protocol token",
+      "Enhanced DeFi rewards"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/points/earn",
+    "isActive": true,
+    "isFeatured": false,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/points/earn",
+      "pointsMultiplier": 10.0
+    }
+  }
+]

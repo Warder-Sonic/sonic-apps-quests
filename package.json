@@ -1,0 +1,37 @@
+{
+  "name": "warder-offers-database",
+  "version": "1.0.0",
+  "description": "Central database for Warder quests and offers integrated with Sonic Labs ecosystem",
+  "main": "api/quests.js",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "build": "node scripts/build.js",
+    "dev": "node scripts/dev-server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "warder",
+    "sonic",
+    "cashback",
+    "quests",
+    "offers",
+    "blockchain"
+  ],
+  "author": "Warder Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "ajv": "^8.12.0",
+    "jest": "^29.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Warder-Sonic/offers-database.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

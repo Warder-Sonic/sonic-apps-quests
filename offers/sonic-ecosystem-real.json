@@ -1,0 +1,152 @@
+[
+  {
+    "id": "shadow-exchange-cashback",
+    "merchantId": "shadow-001",
+    "title": "Shadow Exchange Trading Cashback",
+    "description": "Get 15% cashback on all trades on Shadow Exchange DEX ($100M TVL)",
+    "merchantName": "Shadow Exchange",
+    "category": "defi",
+    "cashbackRate": 15,
+    "maxCashback": 100,
+    "minPurchase": 10,
+    "currency": "S",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "Valid for DEX trades only",
+      "Minimum 10 S transaction",
+      "Cashback paid in S tokens"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/apps",
+    "isActive": true,
+    "isFeatured": true,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/apps",
+      "pointsMultiplier": 3.0
+    }
+  },
+  {
+    "id": "beets-staking-rewards",
+    "merchantId": "beets-001", 
+    "title": "BEETS Staking Cashback",
+    "description": "Earn extra cashback when staking S tokens on BEETS infrastructure",
+    "merchantName": "BEETS Protocol",
+    "category": "defi",
+    "cashbackRate": 12,
+    "maxCashback": 200,
+    "minPurchase": 100,
+    "currency": "S",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "Valid for S staking only",
+      "Receive stS tokens",
+      "Auto-compounding rewards"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/apps",
+    "isActive": true,
+    "isFeatured": true,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/apps", 
+      "pointsMultiplier": 3.0
+    }
+  },
+  {
+    "id": "swapx-liquidity-rewards",
+    "merchantId": "swapx-001",
+    "title": "SwapX Liquidity Provider Rewards", 
+    "description": "Extra rewards for providing liquidity on SwapX primary liquidity layer",
+    "merchantName": "SwapX DEX",
+    "category": "defi",
+    "cashbackRate": 10,
+    "maxCashback": 150,
+    "minPurchase": 50,
+    "currency": "S",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "Liquidity provision required",
+      "Concentrated liquidity AMM",
+      "Capital efficiency bonus"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/apps",
+    "isActive": true,
+    "isFeatured": true,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/apps",
+      "pointsMultiplier": 2.5
+    }
+  },
+  {
+    "id": "sonic-bridge-cashback",
+    "merchantId": "bridge-001",
+    "title": "Sonic Gateway Bridge Rewards",
+    "description": "Get cashback when bridging assets between Ethereum and Sonic",
+    "merchantName": "Sonic Gateway",
+    "category": "defi",
+    "cashbackRate": 8,
+    "maxCashback": 75,
+    "minPurchase": 25,
+    "currency": "S",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "Cross-chain bridging only",
+      "ETH to Sonic or Sonic to ETH", 
+      "Secure bridge protocol"
+    ],
+    "merchantUrl": "http://gateway.soniclabs.com",
+    "isActive": true,
+    "isFeatured": false,
+    "sonicIntegration": {
+      "appUrl": "http://gateway.soniclabs.com",
+      "pointsMultiplier": 2.0
+    }
+  },
+  {
+    "id": "spookyswap-v3-rewards",
+    "merchantId": "spooky-001",
+    "title": "SpookySwap V3 Trading Rewards",
+    "description": "Concentrated liquidity trading rewards on veteran Fantom DEX now on Sonic",
+    "merchantName": "SpookySwap",
+    "category": "defi", 
+    "cashbackRate": 7,
+    "maxCashback": 50,
+    "minPurchase": 20,
+    "currency": "S",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "V3 concentrated liquidity",
+      "BOO governance token staking",
+      "All-in-one DeFi portal"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/apps",
+    "isActive": true,
+    "isFeatured": false,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/apps",
+      "pointsMultiplier": 1.8
+    }
+  },
+  {
+    "id": "mysonic-staking-bonus",
+    "merchantId": "mysonic-001",
+    "title": "MySonic Native Staking Bonus",
+    "description": "Enhanced rewards for staking S tokens with network validators on MySonic",
+    "merchantName": "MySonic Platform",
+    "category": "sonic-apps",
+    "cashbackRate": 20,
+    "maxCashback": 500,
+    "minPurchase": 100, 
+    "currency": "S",
+    "validUntil": "2024-12-31T23:59:59Z",
+    "terms": [
+      "Native S token staking",
+      "Network validator rewards",
+      "Governance participation"
+    ],
+    "merchantUrl": "https://my.soniclabs.com/stake",
+    "isActive": true,
+    "isFeatured": true,
+    "sonicIntegration": {
+      "appUrl": "https://my.soniclabs.com/stake",
+      "pointsMultiplier": 3.0
+    }
+  }
+]
