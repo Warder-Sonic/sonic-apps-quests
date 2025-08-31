@@ -1,8 +1,8 @@
-# Offers Database
+# Quests & Offers Database
 
 Central database for Warder quests, offers, and earning opportunities integrated with Sonic Labs ecosystem.
 
-## Overview
+## TLDR
 
 This repository manages the offers and quests available in the Warder frontend, pulling data from Sonic Labs apps and earning opportunities.
 
